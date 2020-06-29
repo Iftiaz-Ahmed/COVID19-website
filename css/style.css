@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+body{
+    text-align: center;
+    font-family: 'Bitter', serif;
+}
+
+.edit{
+  border: none;
+  font-size: 15px;
+  color: #007bff;
+  padding-left: 10px;
+  background: #ff000000;
+}
+
+.editt{
+  border: none;
+  font-size: 15px;
+  color: #007bff;
+  padding-left: 10px;
+  background: #ff000000;
+}
+
+.editt:hover{
+  text-decoration: underline;
+}
+
+.medical{
+    padding: 15px;
+    margin: 20px 0;
+}
+
+input{
+    width: 40%;
+    padding-left: 10px;
+}
+
+label{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 4;
+}
+
+.table .thead-dark th {
+  color: #fff;
+  background-color: #17a2b8!important;
+  border-color: #17a2b8!important;
+}
+
+.table td, .table th {
+  background-color: #f3f3f3!important;
+}
+
+.logout_style{
+    border: 0;
+    background: #17a2b8;
+    text-align: center;
+    width: 100%;
+    color: white !important;
+    padding: 0;
+}
+
+#map {
+  position: absolute;
+  width: 80%;
+  height: 50%;
+  left: 10%;
+  margin-bottom: 10%;
+  border: 2px solid black;
+}
+.marker {
+  background-image: url('download.png');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.mapboxgl-popup {
+  max-width: 200px;
+}
+.mapboxgl-popup-content {
+  text-align: center;
+  font-family: 'Bitter', serif;
+}
