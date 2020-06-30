@@ -251,7 +251,7 @@ if (isset($_SESSION["authen"])){
     * The callback parameter executes the initMap() function
     -->
     <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-SYtwCNvaTmgZ-WetDZi-d3FHKtgzapU&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=apiKEY&callback=initMap">
     </script>
   
  	<!-- <div id="result"></div> -->
