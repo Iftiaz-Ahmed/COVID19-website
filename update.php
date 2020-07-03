@@ -86,7 +86,7 @@
                     $minLng = $points[2];
                     $maxLng = $points[3];
 
-                    $sql = "SELECT * FROM user_locations WHERE date_time >= ( '$search_date' - INTERVAL $time_range MINUTE ) and u_id !='$u' and latitude>='$minLat' and latitude<='$maxLat' and longitude>='$minLng' and longitude<='$maxLng'"; 
+                    $sql = "SELECT * FROM user_locations WHERE date_time BETWEEN ('$search_date' - INTERVAL $time_range MINUTE) and ('$search_date' + INTERVAL $time_range MINUTE) and u_id !='$u' and latitude BETWEEN $minLat and $maxLat and longitude BETWEEN $minLng and $maxLng"; 
                     // here a query is set to filter the users of same date and time
                     $result = mysqli_query($conn, $sql);
                     if (mysqli_num_rows($result) > 0) {
