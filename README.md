@@ -10,6 +10,6 @@ With the current pandemic at hand, the world is in turmoil however, we are findi
 # Screenshots
 
 <div style="text-align: center">
-  <img src="images/1.jpg" width="40%" title="">
-  <img src="images/2.jpg" width="40%" title="">
+  <img src="images/1.JPG" width="40%" title="">
+  <img src="images/2.JPG" width="40%" title="">
 </div>
